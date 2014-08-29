@@ -1,18 +1,22 @@
 $font-stack: cac_champagneregular, Helvetica, sans-serif;
 $bg-color: #FFF;
 $button-height:50px;
+$accent-color:rgb(179, 43, 146);
 
 body {
 //	background-color: $bg-color;
-	background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #525252 100%);
+	background-image: -webkit-linear-gradient(top, white 0%, #43435E 100%);
 	#banner{
 		font-family: "cac_champagneregular";
-		color:red;
-		font-size:45px;
-		font-weight:bold;
+		color:$accent-color;
+		font-size:75px;
+		font-weight:600;
 		text-align:center;
 		margin-top:3%;
 		margin-bottom:1%;
+		#subtext{
+			font-size:30px;
+		}
 	}
 	#navbar {
 		font-size: 23px;
@@ -20,7 +24,7 @@ body {
 		text-align:center;
 		margin-bottom:1%;
 		a {
-			color: rgb(153, 153, 153);
+			color: #808080;
 			text-decoration: none;
 			height: 3.2em;
 			vertical-align: center;
@@ -41,7 +45,7 @@ body {
 		line-height:200%;
 	}
 	 .button{
-  		background-color:red;
+  		background-color:$accent-color;
   		margin:auto;
   		width:225px;
   		height:$button-height;
