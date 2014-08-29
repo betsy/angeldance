@@ -7,7 +7,19 @@ body {
     font-weight: bold;
     text-align: center;
     margin-top: 3%;
-    margin-bottom: 2%; }
+    margin-bottom: 3%; }
+
+#navbar {
+  float: left;
+  font-size: 23px;
+  font-family: 'sans-serif';
+  padding-left: 5%; }
+  #navbar a {
+    display: block;
+    color: #999999;
+    text-decoration: none;
+    height: 3.2em;
+    vertical-align: center; }
 
 .centered {
   display: block;

@@ -1,4 +1,4 @@
-$font-stack: Helvetica, sans-serif;
+$font-stack: cac_champagneregular, Helvetica, sans-serif;
 $bg-color: #FFF;
 
 body {
@@ -10,7 +10,21 @@ body {
 		font-weight:bold;
 		text-align:center;
 		margin-top:3%;
-		margin-bottom:2%;
+		margin-bottom:3%;
+	}
+}
+
+#navbar {
+	float:left;
+	font-size: 23px;
+	font-family:'sans-serif';
+	padding-left:5%;
+	a {
+		display: block;
+		color: rgb(153, 153, 153);
+		text-decoration: none;
+		height: 3.2em;
+		vertical-align: center;
 	}
 }
 
