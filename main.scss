@@ -4,8 +4,12 @@ $button-height:50px;
 $accent-color:rgb(179, 43, 146);
 
 body {
-//	background-color: $bg-color;
-	background-image: -webkit-linear-gradient(top, white 0%, #43435E 100%);
+	background-image: 
+		-webkit-linear-gradient(top, white 0%, #43435E 100%),
+		url('http://i.imgur.com/RiKk17K.png');
+	background-blend-mode:multiply;
+	background-size:100%;
+	background-repeat: no-repeat;
 	#banner{
 		font-family: "cac_champagneregular";
 		color:$accent-color;
@@ -47,7 +51,7 @@ body {
 	 .button{
   		background-color:$accent-color;
   		margin:auto;
-  		width:225px;
+  		width:150px;
   		height:$button-height;
 		line-height:$button-height;
   		text-align:center;
