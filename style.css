@@ -37,8 +37,7 @@ body {
     height: 50px;
     line-height: 50px;
     text-align: center;
-    vertical-align: middle;
-    box-shadow: 0 0 15px gray; }
+    vertical-align: middle; }
     body .button a {
       color: #FFF;
       text-decoration: none; }
