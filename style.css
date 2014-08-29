@@ -19,7 +19,7 @@ body {
     text-align: center;
     margin-bottom: 1%; }
     body #navbar a {
-      color: #808080;
+      color: gray;
       text-decoration: none;
       height: 3.2em;
       vertical-align: center;
@@ -31,6 +31,19 @@ body {
     margin-bottom: 3%;
     line-height: 200%; }
     body #content #title {
+      font-size: 30px;
+      padding-bottom: 1%;
+      margin-bottom: 1%;
+      border-bottom: 1px solid #FFF; }
+  body #page_content {
+    font-size: 20px;
+    color: gray;
+    background-color: #FFF;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    padding: 2%;
+    line-height: 200%; }
+    body #page_content #title {
       font-size: 30px;
       padding-bottom: 1%;
       margin-bottom: 1%;
