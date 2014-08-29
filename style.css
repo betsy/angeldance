@@ -1,5 +1,5 @@
 body {
-  background-color: white; }
+  background-image: -webkit-linear-gradient(top, white 0%, #525252 100%); }
   body #banner {
     font-family: "cac_champagneregular";
     color: red;
@@ -7,19 +7,41 @@ body {
     font-weight: bold;
     text-align: center;
     margin-top: 3%;
-    margin-bottom: 3%; }
-
-#navbar {
-  float: left;
-  font-size: 23px;
-  font-family: 'sans-serif';
-  padding-left: 5%; }
-  #navbar a {
-    display: block;
-    color: #999999;
-    text-decoration: none;
-    height: 3.2em;
-    vertical-align: center; }
+    margin-bottom: 1%; }
+  body #navbar {
+    font-size: 23px;
+    font-family: 'sans-serif';
+    text-align: center;
+    margin-bottom: 1%; }
+    body #navbar a {
+      color: #999999;
+      text-decoration: none;
+      height: 3.2em;
+      vertical-align: center;
+      margin-left: 5%; }
+  body #content {
+    font-size: 20px;
+    color: #FFF;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    line-height: 200%; }
+    body #content #title {
+      font-size: 30px;
+      padding-bottom: 1%;
+      margin-bottom: 1%;
+      border-bottom: 1px solid #FFF; }
+  body .button {
+    background-color: red;
+    margin: auto;
+    width: 225px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 0 0 15px gray; }
+    body .button a {
+      color: #FFF;
+      text-decoration: none; }
 
 .centered {
   display: block;
