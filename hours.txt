@@ -1,0 +1,46 @@
+hours on angel performing arts website redesign
+
+8-28: 2hours
+	HOME page:
+		background gradient
+		install font for header (cac_champagneregular)
+		find, resize, add image for slideshow placeholder
+		create vertical nav bar
+			changed to horizontal nav bar
+		made text area with line, Register button
+
+8-29: whole day, approx 13hours
+	morning: (10am - 1am)
+		made it look better
+			remove button box-shadow
+			change font colors
+			adjust alignments of content / navbar / image
+	meeting with keke (2pm - 3:30pm)
+		increase banner size
+		change colors to purple scheme
+		make image less tall
+	the rest of the day (4pm - 1am)
+		pretty image behind banner (1-2 hours)
+			find free abstract image
+			cropping, resizing, changing opacity
+			learning and adding image behind banner
+				repeat the last 3 steps a couple times
+			learning and changing background image modes and repeat modes
+			adjusting opacity and color
+		ABOUT page:
+			create page
+			learn to link pages through navbar
+			[2-4 hours attempting to learn angular js / handlebars before deciding it was unecessary]
+			create content box, determine background and text color scheme
+			copy and reformat text from current website
+			resize / align / add image
+		CLASSES page:
+			same setup as about page
+			change color scheme (bg + font colors)
+
+8-30:
+	(1pm-)
+	learn + create cursor hover image (program_button)
+			add labels, create + align 3 of these (requires image cropping)
+				fix alignment because margins are confusing
+		[create partial scss file for _pagecontent]
