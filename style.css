@@ -24,30 +24,35 @@ body {
       height: 3.2em;
       vertical-align: center;
       margin-left: 5%; }
-  body #content {
+  body #content, body #page_content {
     font-size: 20px;
     color: #FFF;
     margin-top: 2%;
     margin-bottom: 3%;
     line-height: 200%; }
-    body #content #title {
+    body #content #title, body #page_content #title {
       font-size: 30px;
-      padding-bottom: 1%;
+      padding-bottom: 2%;
       margin-bottom: 1%;
       border-bottom: 1px solid #FFF; }
   body #page_content {
-    font-size: 20px;
-    color: gray;
-    background-color: #FFF;
-    margin-top: 2%;
-    margin-bottom: 3%;
     padding: 2%;
-    line-height: 200%; }
+    color: gray;
+    background-color: #FFF; }
     body #page_content #title {
+      border-bottom: 1px solid gray; }
+    body #page_content .program_type {
+      border-bottom: 1px solid gray; }
+    body #page_content .program_button {
+      width: 30%;
+      height: 250px;
+      cursor: pointer;
+      background-size: 100%;
+      text-align: center;
       font-size: 30px;
-      padding-bottom: 1%;
-      margin-bottom: 1%;
-      border-bottom: 1px solid #FFF; }
+      color: #FFF;
+      margin-top: 1em;
+      font-family: 'cac_champagneregular'; }
   body .button {
     background-color: #b32b92;
     margin: auto;
@@ -59,6 +64,10 @@ body {
     body .button a {
       color: #FFF;
       text-decoration: none; }
+
+.vertically_centered {
+  display: inline-block;
+  vertical-align: middle; }
 
 .centered {
   display: block;

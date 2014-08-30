@@ -39,7 +39,7 @@ body {
 	#content{
 		#title{
 			font-size:30px;
-			padding-bottom: 1%;
+			padding-bottom: 2%;
 			margin-bottom:1%;
 			border-bottom: 1px solid #FFF;
 		}
@@ -50,19 +50,27 @@ body {
 		line-height:200%;
 	}
 	#page_content{
+		@extend #content;
 		#title{
-			font-size:30px;
-			padding-bottom: 1%;
-			margin-bottom:1%;
-			border-bottom: 1px solid #FFF;
+			border-bottom:1px solid $gray;
 		}
-		font-size:20px;
+		padding:2%;
 		color:$gray;
 		background-color:#FFF;
-		margin-top:2%;
-		margin-bottom:3%;
-		padding:2%;
-		line-height:200%;
+		.program_type{
+			border-bottom:1px solid $gray;
+		}
+		.program_button{
+			width:30%;
+			height:250px;
+			cursor:pointer;
+			background-size:100%;
+			text-align:center;
+			font-size:30px;
+			color:#FFF;
+			margin-top:1em;
+			font-family:'cac_champagneregular';
+		}
 	}
 	.button{
   		background-color:$accent-color;
@@ -79,6 +87,10 @@ body {
   	}
 }
 
+.vertically_centered{
+	display:inline-block;
+	vertical-align:middle;
+}
 .centered{
 	display:block;
 	margin:auto;
