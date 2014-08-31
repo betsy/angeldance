@@ -3,13 +3,26 @@ body {
   background-blend-mode: multiply;
   background-size: 100%;
   background-repeat: no-repeat; }
+  body #contact_links {
+    float: left;
+    position: absolute;
+    margin-left: 5px;
+    color: gray; }
+    body #contact_links a {
+      display: inline-block;
+      background: url(https://www.facebook.com/images/fb_icon_325x325.png) no-repeat;
+      cursor: pointer;
+      background-size: 100%;
+      width: 20px;
+      height: 20px;
+      margin-top: 5px; }
   body #banner {
+    padding-top: 2%;
     font-family: "cac_champagneregular";
     color: #51428f;
     font-size: 75px;
     font-weight: 600;
     text-align: center;
-    margin-top: 3%;
     margin-bottom: 1%; }
     body #banner #subtext {
       font-size: 30px; }
