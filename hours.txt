@@ -1,5 +1,11 @@
 hours on angel performing arts website redesign
 
+total: 17hours
+
+Current working pages: Home, About
+In progress: Classes page
+Need more info: Social media links/buttons
+
 8-28: 2hours
 	HOME page:
 		background gradient
@@ -38,9 +44,16 @@ hours on angel performing arts website redesign
 			same setup as about page
 			change color scheme (bg + font colors)
 
-8-30:
-	(1pm-)
+8-30: 2hours
+	(1pm-3pm)
 	learn + create cursor hover image (program_button)
 			add labels, create + align 3 of these (requires image cropping)
 				fix alignment because margins are confusing
 		[create partial scss file for _pagecontent]
+
+8-31:
+	//now I actually have to do school homework
+
+NOTES:
+	-Less text. Please, less text, at least provide some easy, at-a-glance overviews for viewers. The current content is very verbose, and most people are too lazy to read something that long. Try for more bulleted lists and short descriptions.
+	-I will need information of the email / facebook / twitter / etc that you want on the page

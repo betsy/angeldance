@@ -1,13 +1,14 @@
 $font-stack: cac_champagneregular, Helvetica, sans-serif;
 $bg-color: #FFF;
 $button-height:50px;
-$accent-color:rgb(179, 43, 146);
+//$accent-color:rgb(179, 43, 146);
+$accent-color:#51428F;
 $gray:#808080;
 
 body {
 	background-image: 
 		-webkit-linear-gradient(top, white 0%, #43435E 100%),
-		url('http://i.imgur.com/fxZT86E.png');
+		url('http://i.imgur.com/OwsgVDE.png');
 	background-blend-mode:multiply;
 	background-size:100%;
 	background-repeat: no-repeat;
@@ -51,8 +52,9 @@ body {
 	}
 	@import 'pagecontent';
 	.button{
-  		background-color:$accent-color;
+  		background-color:#705CC2;
   		margin:auto;
+  		margin-top:10px;
   		width:150px;
   		height:$button-height;
 		line-height:$button-height;
