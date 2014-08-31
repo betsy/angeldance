@@ -52,7 +52,9 @@ Need more info: Social media links/buttons
 		[create partial scss file for _pagecontent]
 
 8-31:
-	//now I actually have to do school homework
+	
+	changed general color scheme
+	added links 
 
 NOTES:
 	-Less text. Please, less text, at least provide some easy, at-a-glance overviews for viewers. The current content is very verbose, and most people are too lazy to read something that long. Try for more bulleted lists and short descriptions.
