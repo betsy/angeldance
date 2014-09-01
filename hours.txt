@@ -52,7 +52,7 @@ Need more info: Social media links/buttons
 		[create partial scss file for _pagecontent]
 
 8-31:
-	
+	(1pm-3pm)
 	changed general color scheme
 	added links 
 
