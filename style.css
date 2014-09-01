@@ -51,6 +51,7 @@ body {
   body #page_content {
     padding: 2%;
     color: #FFF;
+    font-size: 17px;
     background-color: #43435e; }
     body #page_content #title {
       border-bottom: 1px solid gray; }
