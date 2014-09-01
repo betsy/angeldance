@@ -50,8 +50,8 @@ body {
       border-bottom: 1px solid #FFF; }
   body #page_content {
     padding: 2%;
-    color: gray;
-    background-color: #FFF; }
+    color: #FFF;
+    background-color: #43435e; }
     body #page_content #title {
       border-bottom: 1px solid gray; }
     body #page_content .program_type {
@@ -69,7 +69,9 @@ body {
       padding-top: 10px;
       font-family: 'cac_champagneregular';
       display: inline-block; }
-  body .button {
+    body #page_content .faculty_member br {
+      line-height: 250%; }
+  body .button a {
     background-color: #705CC2;
     margin: auto;
     margin-top: 10px;
@@ -77,10 +79,10 @@ body {
     height: 50px;
     line-height: 50px;
     text-align: center;
-    vertical-align: middle; }
-    body .button a {
-      color: #FFF;
-      text-decoration: none; }
+    vertical-align: middle;
+    display: block;
+    color: #FFF;
+    text-decoration: none; }
 
 .vertically_centered {
   display: inline-block;

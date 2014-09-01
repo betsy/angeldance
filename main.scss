@@ -67,15 +67,16 @@ body {
 	}
 	@import 'pagecontent';
 	.button{
-  		background-color:#705CC2;
-  		margin:auto;
-  		margin-top:10px;
-  		width:150px;
-  		height:$button-height;
-		line-height:$button-height;
-  		text-align:center;
-  		vertical-align:middle;
   		a{
+	  		background-color:#705CC2;
+	  		margin:auto;
+	  		margin-top:10px;
+	  		width:150px;
+	  		height:$button-height;
+			line-height:$button-height;
+	  		text-align:center;
+	  		vertical-align:middle;
+	  		display:block;
   			color:#FFF;
   			text-decoration:none;
   		}

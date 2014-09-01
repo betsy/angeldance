@@ -4,8 +4,8 @@
 			border-bottom:1px solid $gray;
 		}
 		padding:2%;
-		color:$gray;
-		background-color:#FFF;
+		color:#FFF;
+		background-color:#43435e;
 		.program_type{
 			border-bottom:1px solid $gray;
 		}
@@ -22,5 +22,10 @@
 			padding-top:10px;
 			font-family:'cac_champagneregular';
 			display:inline-block;
+		}
+		.faculty_member{
+			br{
+				line-height:250%;
+			}
 		}
 	}
