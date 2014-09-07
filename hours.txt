@@ -56,11 +56,16 @@ Need more info: Social media links/buttons
 	changed general color scheme
 	added links 
 
-9-1:
-	(11:30 am)
+9-1: 2hrs
+	(11:30am-1:30am)
 	added pages for Faculty, Gallery, and Registration
 	put a bit of content in Faculty page (not complete!!)
 	discussed content, content length, editing
+
+9-13:
+	(7pm-)
+	added all faculty members to Faculty page
+	styled name / position boxes
 
 NOTES:
 	-Less text. Please, less text, at least provide some easy, at-a-glance overviews for viewers. The current content is very verbose, and most people are too lazy to read something that long. Try for more bulleted lists and short descriptions.
