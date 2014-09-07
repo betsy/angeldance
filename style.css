@@ -54,9 +54,9 @@ body {
     font-size: 17px;
     background-color: #43435e; }
     body #page_content #title {
-      border-bottom: 1px solid gray; }
+      border-bottom: 1px solid #adadad; }
     body #page_content .program_type {
-      border-bottom: 1px solid gray; }
+      border-bottom: 1px solid #adadad; }
     body #page_content .program_button {
       width: 30%;
       height: 125px;
@@ -70,8 +70,31 @@ body {
       padding-top: 10px;
       font-family: 'cac_champagneregular';
       display: inline-block; }
-    body #page_content .faculty_member br {
-      line-height: 250%; }
+    body #page_content .faculty_member {
+      /*border-bottom:1px solid $light-gray;*/
+      padding-top: 10px;
+      padding-bottom: 10px; }
+      body #page_content .faculty_member br {
+        line-height: 250%; }
+      body #page_content .faculty_member .name {
+        overflow: hidden;
+        border: 1px solid #adadad;
+        padding-top: 10px;
+        margin-bottom: 5px;
+        text-align: center;
+        font-size: 20px;
+        line-height: 150%;
+        color: #adadad; }
+        body #page_content .faculty_member .name .sub {
+          font-size: 17px;
+          font-style: italic;
+          margin-bottom: 10px; }
+      body #page_content .faculty_member .img_left img {
+        float: left;
+        margin-right: 15px; }
+      body #page_content .faculty_member .img_right img {
+        float: right;
+        margin-left: 15px; }
   body .button a {
     background-color: #705CC2;
     margin: auto;

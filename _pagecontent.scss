@@ -1,14 +1,14 @@
 #page_content{
 		@extend #content;
 		#title{
-			border-bottom:1px solid $gray;
+			border-bottom:1px solid $light-gray;
 		}
 		padding:2%;
 		color:#FFF;
 		font-size:17px;
 		background-color:#43435e;
 		.program_type{
-			border-bottom:1px solid $gray;
+			border-bottom:1px solid $light-gray;
 		}
 		.program_button{
 			width:30%;
@@ -25,8 +25,38 @@
 			display:inline-block;
 		}
 		.faculty_member{
+			/*border-bottom:1px solid $light-gray;*/
+			padding-top:10px;
+			padding-bottom:10px;
 			br{
 				line-height:250%;
+			}
+			.name{
+				overflow:hidden;
+				border:1px solid $light-gray;
+				padding-top:10px;
+				margin-bottom:5px;
+				text-align:center;
+				font-size:20px;
+				line-height:150%;
+				color:$light-gray;
+				.sub{
+					font-size:17px;
+					font-style:italic;
+					margin-bottom:10px;
+				}
+			}
+			.img_left{
+				img{
+					float:left;
+					margin-right:15px;
+				}
+			}
+			.img_right{
+				img{
+					float:right;
+					margin-left:15px;
+				}
 			}
 		}
 	}
