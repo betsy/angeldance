@@ -26,6 +26,7 @@
 		}
 		.faculty_member{
 			/*border-bottom:1px solid $light-gray;*/
+			$name-color:#BBB4E0;
 			padding-top:10px;
 			padding-bottom:10px;
 			br{
@@ -33,13 +34,13 @@
 			}
 			.name{
 				overflow:hidden;
-				border:1px solid $light-gray;
+				border:1px solid $name-color;
 				padding-top:10px;
 				margin-bottom:5px;
 				text-align:center;
 				font-size:20px;
 				line-height:150%;
-				color:$light-gray;
+				color:$name-color;
 				.sub{
 					font-size:17px;
 					font-style:italic;
