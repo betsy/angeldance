@@ -68,5 +68,5 @@ Need more info: Social media links/buttons
 	styled name / position boxes
 
 NOTES:
-	-Less text. Please, less text, at least provide some easy, at-a-glance overviews for viewers. The current content is very verbose, and most people are too lazy to read something that long. Try for more bulleted lists and short descriptions.
-	-I will need information of the email / facebook / twitter / etc that you want on the page
+	-Less text (still)
+	-what do you want about
