@@ -59,7 +59,8 @@ body {
       border-bottom: 1px solid gray; }
     body #page_content #program_buttons a {
       width: 30%;
-      height: 5em;
+      height: 0;
+      padding-bottom: 16.5%;
       cursor: pointer;
       background-size: 100%;
       text-align: center;
