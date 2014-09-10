@@ -96,6 +96,24 @@ body {
       body #page_content .member .img_right img {
         float: right;
         margin-left: 15px; }
+    body #page_content .classes_member {
+      padding-top: 10px;
+      padding-bottom: 10px; }
+      body #page_content .classes_member br {
+        line-height: 250%; }
+      body #page_content .classes_member .name {
+        overflow: hidden;
+        border-bottom: 1px solid #bbb4e0;
+        padding-top: 10px;
+        padding-left: 5px;
+        margin-bottom: 5px;
+        font-size: 25px;
+        line-height: 150%;
+        color: #bbb4e0; }
+        body #page_content .classes_member .name .sub {
+          font-size: 17px;
+          font-style: italic;
+          margin-bottom: 10px; }
   body .button a {
     background-color: #705CC2;
     margin: auto;
