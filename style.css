@@ -1,5 +1,6 @@
 body {
-  background-image: -webkit-linear-gradient(top, white 0%, #43435e 100%), url("http://i.imgur.com/OwsgVDE.png");
+  background-image: -moz-linear-gradient(top, white, #43435e);
+  background-image: linear-gradient(to bottom, white 0%, #43435e 100%), url("http://i.imgur.com/OwsgVDE.png");
   background-blend-mode: multiply;
   background-size: 100%;
   background-repeat: no-repeat; }
