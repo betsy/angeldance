@@ -6,10 +6,10 @@ $accent-color:#51428F;
 $gray:#808080;
 
 body {
-	background-image:-moz-linear-gradient(top,#FFF,#43435E);
 	background-image: 
 		linear-gradient(to bottom, white 0%, #43435E 100%),
 		url('http://i.imgur.com/OwsgVDE.png');
+	background-image: -moz-linear-gradient(top,#FFF,#43435E);
 	background-blend-mode:multiply;
 	background-size:100%;
 	background-repeat: no-repeat;
