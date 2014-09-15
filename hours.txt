@@ -1,7 +1,5 @@
 hours on angel performing arts website redesign
 
-total: 17hours
-
 Current working pages: Home, About
 In progress: Classes page
 Need more info: Social media links/buttons
@@ -67,10 +65,26 @@ Need more info: Social media links/buttons
 	added all faculty members to Faculty page
 	styled name / position boxes
 
-9-10: 1 study
+9-10: 3hours
+	(Study Hall (1hr))
 	reformatted classes page, started adding page jumps
-RUNNING TOTAL: 23 hours
+	(4pm-6pm)
+	getting ftp to work (it kept crashing windows explorer)
+	program_buttons now dynamically resize
+	researching lightbox and other gallery options
+	started fixing some things in IE
+
+9-13+9-14: 4hours
+	2 (Study Halls(2hr))
+	+ 9-14 8pm-10pm (2hr)
+	explored different options for gallery (AD Gallery, PrettyPhoto)
+		tried learning some javascript (this will build into jQuery)
+
+RUNNING TOTAL: 30 hours
 
 NOTES:
+
+	-TO DO: Download the images so they don't depend on other websites!!
+
 	-When someone rewrites the text to be shorter, I can include that (for instance, Keke's biography on the Faculty is massive)
 	-Keke, what do you want the last page to be? Right now it says 'Contact', but the contact info is already provided in the top left corner. The site does not have any section listing the locations of the classes (and no in-class/studio photos either). Replacing the current 'contact' page with a 'Locations' page is a possibility. Otherwise if you have anything else in mind, I can do that.
