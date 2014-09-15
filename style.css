@@ -3,7 +3,8 @@ body {
   background-image: -moz-linear-gradient(top, white, #43435e);
   background-blend-mode: multiply;
   background-size: 100%;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  min-height: 100vh; }
   body #contact_links {
     float: left;
     position: absolute;
@@ -116,7 +117,10 @@ body {
           font-size: 18px;
           font-style: italic;
           margin-bottom: 10px; }
-    body #page_content #photo_gallery a {
+    body #page_content #photo_gallery img {
+      width: 15%;
+      height: 15%; }
+    body #page_content #photo_gallery2 a {
       border: 3px solid #FFF;
       width: 30%;
       height: 5em;
@@ -131,7 +135,7 @@ body {
       display: inline-block;
       vertical-align: top;
       text-decoration: none; }
-    body #page_content #photo_gallery .black_overlay {
+    body #page_content #photo_gallery2 .black_overlay {
       display: none;
       position: absolute;
       top: 0%;
@@ -143,7 +147,7 @@ body {
       -moz-opacity: 0.8;
       opacity: .80;
       filter: alpha(opacity=80); }
-    body #page_content #photo_gallery .white_content {
+    body #page_content #photo_gallery2 .white_content {
       display: none;
       position: absolute;
       top: 25%;
