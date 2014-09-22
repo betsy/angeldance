@@ -1,8 +1,8 @@
 hours on angel performing arts website redesign
 
-Current working pages: Home, About
-In progress: Classes page
-Need more info: Social media links/buttons
+Current working pages: Home, About, Classes, Faculty
+In progress: Gallery page
+Need more info: "Contact" page
 
 8-28: 2hours
 	HOME page:
@@ -80,7 +80,10 @@ Need more info: Social media links/buttons
 	explored different options for gallery (AD Gallery, PrettyPhoto)
 		tried learning some javascript (this will build into jQuery)
 
-RUNNING TOTAL: 30 hours
+9-18+9-19: ~5hours
+	FINALLY GOT THE GALLERY TO WORK (it's very ugly and hacky right now though)
+
+RUNNING TOTAL: 35 hours
 
 NOTES:
 
