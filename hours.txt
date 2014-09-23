@@ -83,7 +83,10 @@ Need more info: "Contact" page
 9-18+9-19: ~5hours
 	FINALLY GOT THE GALLERY TO WORK (it's very ugly and hacky right now though)
 
-RUNNING TOTAL: 35 hours
+9-22: ~3 hours
+	made the gallery prettier by matching image sizes
+	
+RUNNING TOTAL: 38 hours
 
 NOTES:
 
