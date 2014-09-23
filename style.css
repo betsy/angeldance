@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(to bottom, white 0%, #43435e 100%), url("http://i.imgur.com/OwsgVDE.png");
+  background-image: linear-gradient(to bottom, white 0%, #43435e 100%), url("images/pages/bgSwirly.jpg");
   background-image: -moz-linear-gradient(top, white, #43435e);
   background-blend-mode: multiply;
   background-size: 100%;
@@ -12,7 +12,7 @@ body {
     color: gray; }
     body #contact_links a {
       display: inline-block;
-      background: url(https://www.facebook.com/images/fb_icon_325x325.png) no-repeat;
+      background: url(images/pages/fbButton.png) no-repeat;
       cursor: pointer;
       background-size: 100%;
       width: 20px;

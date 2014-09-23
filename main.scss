@@ -8,7 +8,7 @@ $gray:#808080;
 body {
 	background-image: 
 		linear-gradient(to bottom, white 0%, #43435E 100%),
-		url('http://i.imgur.com/OwsgVDE.png');
+		url('images/pages/bgSwirly.jpg');
 	background-image: -moz-linear-gradient(top,#FFF,#43435E);
 	background-blend-mode:multiply;
 	background-size:100%;
@@ -21,7 +21,7 @@ body {
 		color:$gray;
 		a{
 			display:inline-block;
-		    background:url(https://www.facebook.com/images/fb_icon_325x325.png) no-repeat;
+		    background:url(images/pages/fbButton.png) no-repeat;
 		    cursor:pointer;
 		    background-size:100%;
 		    width:20px;
