@@ -85,7 +85,8 @@ Need more info: "Contact" page
 
 9-22: ~3 hours
 	made the gallery prettier by matching image sizes
-	
+	moved image links off internet
+
 RUNNING TOTAL: 38 hours
 
 NOTES:
