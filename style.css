@@ -5,12 +5,11 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   min-height: 100vh; }
-  body #contact_links {
-    float: left;
+  body #contact_links, body #contact_links_right {
     position: absolute;
     margin-left: 5px;
     color: gray; }
-    body #contact_links a {
+    body #contact_links a, body #contact_links_right a {
       display: inline-block;
       background: url(images/pages/fbButton.png) no-repeat;
       cursor: pointer;
@@ -18,6 +17,8 @@ body {
       width: 20px;
       height: 20px;
       margin-top: 5px; }
+  body #contact_links_right {
+    right: 2%; }
   body #banner {
     padding-top: 2%;
     font-family: "cac_champagneregular";
