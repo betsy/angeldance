@@ -24,6 +24,7 @@ $('.next').on('click', function(){
 });
 $('.prev').on('click', function(){
     counter--;
+    if(counter<0) counter=numItems;
     showCurrent(); 
 });
 

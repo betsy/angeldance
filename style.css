@@ -210,7 +210,7 @@ body {
   body figure {
     position: absolute;
     opacity: 0;
-    transition: 1s opacity; }
+    /* transition: 1s opacity;*/ }
   body figcaption {
     position: absolute;
     font-family: sans-serif;
