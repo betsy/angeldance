@@ -1,18 +1,24 @@
 var counter = 0, // to keep track of current slide
-    $items = $('.diy-slideshow figure'), // a collection of all of the slides, caching for performance
-    numItems = $items.length; // total number of slides
+    // $items = $('.diy-slideshow figure'), // a collection of all of the slides, caching for performance
+    numItems = 0; // total number of slides
 
 // this function is what cycles the slides, showing the next or previous slide and hiding all the others
 var showCurrent = function(){
     var itemToShow = Math.abs(counter%numItems);// uses remainder (aka modulo) operator to get the actual index of the element to show  
-   
+  $items = $('.diy-slideshow figure');
   $items.removeClass('show'); // remove .show from whichever element currently has it
   $items.eq(itemToShow).addClass('show');    
 };
 
+var myVar=setInterval(function () {slideChange()}, 5000);
+
+function slideChange() {
+    counter++;
+    showCurrent(); 
+}
+
 // add click events to prev & next buttons 
 $('.next').on('click', function(){
-    console.log("next");
     counter++;
     showCurrent(); 
 });
@@ -34,3 +40,19 @@ $('.prev').on('click', function(){
 //     }
 //   });
 // }
+
+$(document).ready(function() {
+  var figure, i, items;
+  items = (function() {
+    var _i, _results;
+    _results = [];
+    for (i = _i = 2; _i <= 60; i = ++_i) {
+      figure = $('<figure><div class="crop"><img src="images/photos/image (' + i + ').jpg" width="100%" /></div></figure>');
+      $(".diy-slideshow").append(figure);
+      _results.push(figure);
+    }
+    return _results;
+  })();
+  numItems=items.length;
+  return console.log(items.length + " figures.");
+});
