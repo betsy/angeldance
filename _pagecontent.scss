@@ -68,6 +68,7 @@
 			$name-color:#BBB4E0;
 			padding-top:10px;
 			padding-bottom:10px;
+			overflow:hidden;
 			br{
 				line-height:250%;
 			}
@@ -170,5 +171,11 @@
 				z-index:1002;
 				overflow: auto;
 			}
+		}
+		.google_map{
+			width:40%;
+			height:200px;
+			float:right;
+			margin-top:2%;
 		}
 	}
