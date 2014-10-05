@@ -87,11 +87,22 @@ Need more info: "Contact" page
 	made the gallery prettier by matching image sizes
 	moved image links off internet
 
-RUNNING TOTAL: 38 hours
+10-3 ~3hrs
+	edited images some more, created slideshow for home page
+
+10-4 ~4hrs
+	fixed bugs for homepage slider (ex: transition glitch)
+	changed images of homepage
+	Li Pan pushed the angel2 site to prod! (:D)
+	changed registration page to include locations
+	changed previous Locations page to an Events page
+
+RUNNING TOTAL: 45 hours
 
 NOTES:
 
 	-TO DO: (serverside) use PHP (possibly) --> JSON --> js  ... to load all images from folder instead of manually
 
 	-When someone rewrites the text to be shorter, I can include that (for instance, Keke's biography on the Faculty is massive)
-	-Keke, what do you want the last page to be? Right now it says 'Contact', but the contact info is already provided in the top left corner. The site does not have any section listing the locations of the classes (and no in-class/studio photos either). Replacing the current 'contact' page with a 'Locations' page is a possibility. Otherwise if you have anything else in mind, I can do that.
+	-Need info for events page
+	-Where besides the home page should there be a link to the Register/Locations page?
