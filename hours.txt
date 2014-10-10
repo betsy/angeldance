@@ -97,7 +97,10 @@ Need more info: "Contact" page
 	changed registration page to include locations
 	changed previous Locations page to an Events page
 
-RUNNING TOTAL: 45 hours
+10-5, 10-6 ~30min
+	Added Competion page and edited navbar on other pages to include it
+
+RUNNING TOTAL: 45.5 hours
 
 NOTES:
 
