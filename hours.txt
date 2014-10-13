@@ -1,8 +1,6 @@
 hours on angel performing arts website redesign
-
-Current working pages: Home, About, Classes, Faculty
-In progress: Gallery page
-Need more info: "Contact" page
+prod: angelperformingarts.com
+github: miracle2.github.io/angeldance
 
 8-28: 2hours
 	HOME page:
@@ -100,7 +98,14 @@ Need more info: "Contact" page
 10-5, 10-6 ~30min
 	Added Competion page and edited navbar on other pages to include it
 
-RUNNING TOTAL: 45.5 hours
+10-10 ~.5 hour
+	created separate folder for home page slider images
+	added another class to Waltham on Register page
+
+RUNNING TOTAL: 46 hours
+
+10-11:
+	30min afternoon meeting w/ keke to discuss site & logo
 
 NOTES:
 
