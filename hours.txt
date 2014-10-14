@@ -102,10 +102,21 @@ github: miracle2.github.io/angeldance
 	created separate folder for home page slider images
 	added another class to Waltham on Register page
 
-RUNNING TOTAL: 46 hours
+SUBMITTED COMMUNITY SERVICE FORM: 46 HOURS
 
 10-11:
 	30min afternoon meeting w/ keke to discuss site & logo
+
+10-13: ~2.5 hours
+	(8pm-10:30pm)
+	Changes made on main site:
+	changed "Classes" page to "Programs"
+	moved summer camp information to the Programs page
+	changed "National Dance Competition" to "National Dance Competition Awards
+	created "In conjunction with ktbyte.com" text in header
+
+CURRENT TOTAL: 3 hours
+RUNNING TOTAL: 49 hours
 
 NOTES:
 
