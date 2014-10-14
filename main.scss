@@ -31,6 +31,14 @@ body {
 	#contact_links_right{
 		@extend #contact_links;
 		right:2%;
+		text-align:right;
+		.ktbyte{
+			text-decoration:none;
+			background:$gray;
+			width:auto;
+			padding:3px;
+			border-radius:5px;
+		}
 	}
 	#banner{
 		padding-top:2%;
@@ -87,6 +95,14 @@ body {
   			text-decoration:none;
   		}
   	}
+/*  #ktbyte{
+  		text-align:right;
+  		margin-right:5px;
+  		color: $gray;
+  		a{
+  			text-decoration:none;
+  		}
+  	}*/
 }
 
 .vertically_centered{

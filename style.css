@@ -4,7 +4,15 @@ body {
   background-blend-mode: multiply;
   background-size: 100%;
   background-repeat: no-repeat;
-  min-height: 100vh; }
+  min-height: 100vh;
+  /*  #ktbyte{
+    		text-align:right;
+    		margin-right:5px;
+    		color: $gray;
+    		a{
+    			text-decoration:none;
+    		}
+    	}*/ }
   body #contact_links, body #contact_links_right {
     position: absolute;
     margin-left: 5px;
@@ -18,7 +26,14 @@ body {
       height: 20px;
       margin-top: 5px; }
   body #contact_links_right {
-    right: 2%; }
+    right: 2%;
+    text-align: right; }
+    body #contact_links_right .ktbyte {
+      text-decoration: none;
+      background: gray;
+      width: auto;
+      padding: 3px;
+      border-radius: 5px; }
   body #banner {
     padding-top: 2%;
     font-family: "cac_champagneregular";
