@@ -129,6 +129,11 @@ SUBMITTED COMMUNITY SERVICE FORM: 46 HOURS
 CURRENT TOTAL: 5.5 hours
 RUNNING TOTAL: 51.5 hours
 
+12-20: 1hour
+	(10am-11am)
+	created favicon (browser tab icon) and added to all pages
+	fixed gallery titles (aka removed them bc not using)
+
 NOTES:
 
 	-TO DO: (serverside) use PHP (possibly) --> JSON --> js  ... to load all images from folder instead of manually
