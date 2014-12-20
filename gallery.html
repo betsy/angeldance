@@ -86,15 +86,15 @@
 				
 				$(".gallery:first a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'fast',theme:'light_square',slideshow:3000, autoplay_slideshow: true});
 				
-				for(var i=1;i<=60;i++){
+				for(var i=1;i<=98;i++){
 					$("#images_here").append($('<li><div class="crop"><a href="images/photos/image ('+i+').jpg" rel="prettyPhoto[gallery1]" title="You can add captions to picturse."><img src="images/photos/image ('+i+').jpg" alt="Photo Title" /></a></div></li>'));
 					$("a[rel^='prettyPhoto']").prettyPhoto();
 				}
 
-				for(var i=1;i<=38;i++){
-					$("#images_here").append($('<li><div class="crop"><a href="images/photos/image ('+i+').png" rel="prettyPhoto[gallery1]" title="You can add captions to pictures."><img src="images/photos/image ('+i+').png" alt="Photo Title" /></a></div></li>'));
-					$("a[rel^='prettyPhoto']").prettyPhoto();
-				}
+				// for(var i=1;i<=38;i++){
+				// 	$("#images_here").append($('<li><div class="crop"><a href="images/photos/image ('+i+').png" rel="prettyPhoto[gallery1]" title="You can add captions to pictures."><img src="images/photos/image ('+i+').png" alt="Photo Title" /></a></div></li>'));
+				// 	$("a[rel^='prettyPhoto']").prettyPhoto();
+				// }
 
 				// for(var i=1;i<30;i++)$("#photo_gallery").append($("<img src='images/photos/image ("+i+").jpg'></img>"));
 			});
