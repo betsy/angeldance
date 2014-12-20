@@ -115,19 +115,19 @@ SUBMITTED COMMUNITY SERVICE FORM: 46 HOURS
 	changed "National Dance Competition" to "National Dance Competition Awards
 	created "In conjunction with ktbyte.com" text in header
 
-CURRENT TOTAL: 3 hours
-RUNNING TOTAL: 49 hours
-
 10-27: 30min
 	(8:15-8:45pm)
 	added celtics event
 	pushed that and 'in conjunction with ktbyte' to prod
 
-12-19:
+12-19: 2hours
 	shrunk home page slider images so it doesn't load so slowly
 	shrunk gallery photo images
 	shrunk classButton images on programs page
 	deleted classes.html bc it wasn't being used
+
+CURRENT TOTAL: 5.5 hours
+RUNNING TOTAL: 51.5 hours
 
 NOTES:
 
