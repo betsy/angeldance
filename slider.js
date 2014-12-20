@@ -48,7 +48,7 @@ $(document).ready(function() {
     var _i, _results;
     _results = [];
     for (i = _i = 2; _i <= 12; i = ++_i) {
-      figure = $('<figure><div class="crop"><img src="images/homePageSlider/image (' + i + ').jpg" width="100%" /></div></figure>');
+      figure = $('<figure><div class="crop"><img src="images/homePageSliderResized/image (' + i + ').jpg" width="100%" /></div></figure>');
       $(".diy-slideshow").append(figure);
       _results.push(figure);
     }

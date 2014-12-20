@@ -118,6 +118,15 @@ SUBMITTED COMMUNITY SERVICE FORM: 46 HOURS
 CURRENT TOTAL: 3 hours
 RUNNING TOTAL: 49 hours
 
+10-27: 30min
+	(8:15-8:45pm)
+	added celtics event
+	pushed that and 'in conjunction with ktbyte' to prod
+
+12-19:
+	Shrunk home page slider images so it doesn't load so slowly
+
+
 NOTES:
 
 	-TO DO: (serverside) use PHP (possibly) --> JSON --> js  ... to load all images from folder instead of manually
