@@ -124,8 +124,10 @@ RUNNING TOTAL: 49 hours
 	pushed that and 'in conjunction with ktbyte' to prod
 
 12-19:
-	Shrunk home page slider images so it doesn't load so slowly
-
+	shrunk home page slider images so it doesn't load so slowly
+	shrunk gallery photo images
+	shrunk classButton images on programs page
+	deleted classes.html bc it wasn't being used
 
 NOTES:
 
