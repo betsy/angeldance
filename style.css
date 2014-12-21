@@ -4,15 +4,7 @@ body {
   background-blend-mode: multiply;
   background-size: 100%;
   background-repeat: no-repeat;
-  min-height: 100vh;
-  /*  #ktbyte{
-    		text-align:right;
-    		margin-right:5px;
-    		color: $gray;
-    		a{
-    			text-decoration:none;
-    		}
-    	}*/ }
+  min-height: 100vh; }
   body #contact_links, body #contact_links_right {
     position: absolute;
     margin-left: 5px;
@@ -67,7 +59,8 @@ body {
       font-size: 30px; }
       @media (max-width: 700px) {
         body #content #title, body #page_content #title {
-          font-size: 20px; } }
+          font-size: 20px;
+          text-align: center; } }
     @media (max-width: 700px) {
       body #content, body #page_content {
         font-size: 12px; } }
@@ -338,6 +331,10 @@ body {
   @media (min-width: 700px) {
     .centered {
       width: 60%; } }
+
+@media (max-width: 700px) {
+  .no-mobile {
+    display: none; } }
 
 @font-face {
   font-family: 'cac_champagneregular';
