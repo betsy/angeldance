@@ -155,13 +155,30 @@ body {
       				  margin: auto;
       				}
       			}*/ }
+      body #page_content #photo_gallery .stretchy-wrapper {
+        padding: 20% 0 0 0;
+        width: 30%;
+        display: inline-block;
+        margin-right: 3%;
+        margin-bottom: 2%; }
+      body #page_content #photo_gallery li {
+        margin: 0;
+        position: absolute;
+        overflow: hidden;
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0; }
       body #page_content #photo_gallery .crop {
         position: relative;
-        margin: .5em 10px .5em 0;
+        margin: -8%;
         overflow: hidden;
         display: inline-block;
-        width: 28%;
-        height: 6.2em;
+        width: 100%;
+        height: 100%;
         background: black; }
       body #page_content #photo_gallery .crop img {
         height: 120%;

@@ -129,10 +129,15 @@ SUBMITTED COMMUNITY SERVICE FORM: 46 HOURS
 CURRENT TOTAL: 5.5 hours
 RUNNING TOTAL: 51.5 hours
 
-12-20: 1hour
+12-20: 3hours
 	(10am-11am)
 	created favicon (browser tab icon) and added to all pages
-	fixed gallery titles (aka removed them bc not using)
+	fixed gallery photo titles (aka removed them bc not using)
+	(6:30pm-8:30pm)
+	made home page slider resizable
+	(9pm-10pm)
+	made gallery photos responsive (resizable) as well.
+	adjusted various margins and paddings in gallery to make for better symmetry
 
 NOTES:
 
