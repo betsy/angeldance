@@ -21,6 +21,7 @@ body {
 		margin-left:5px;
 		color:$dark-gray;
 		font-size:1vw;
+		@media(max-width:1000px){font-size:10px;}
 		a{
 			display:inline-block;
 		    cursor:pointer;
@@ -42,7 +43,7 @@ body {
 		}
 	}
 	#banner{
-		padding-top:2%;
+		padding-top:3%;
 		font-family: "cac_champagneregular";
 		color:$accent-color;
 		font-weight:600;
