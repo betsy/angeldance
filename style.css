@@ -55,16 +55,22 @@ body {
       vertical-align: center;
       margin-left: 4%; }
   body #content, body #page_content {
-    font-size: 20px;
     color: #FFF;
     margin-top: 2%;
     margin-bottom: 3%;
-    line-height: 200%; }
+    line-height: 200%;
+    font-size: 20px; }
     body #content #title, body #page_content #title {
-      font-size: 30px;
       padding-bottom: 2%;
       margin-bottom: 1%;
-      border-bottom: 1px solid #FFF; }
+      border-bottom: 1px solid #FFF;
+      font-size: 30px; }
+      @media (max-width: 700px) {
+        body #content #title, body #page_content #title {
+          font-size: 20px; } }
+    @media (max-width: 700px) {
+      body #content, body #page_content {
+        font-size: 12px; } }
   body #page_content {
     padding: 2%;
     color: #FFF;
