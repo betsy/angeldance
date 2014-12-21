@@ -111,7 +111,7 @@ body {
 .centered{
 	display:block;
 	margin:auto;
-	width:60%;
+	@media(min-width:700px){ width:60%;}
 }
 
 @font-face {

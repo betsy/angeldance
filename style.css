@@ -322,8 +322,10 @@ body {
 
 .centered {
   display: block;
-  margin: auto;
-  width: 60%; }
+  margin: auto; }
+  @media (min-width: 700px) {
+    .centered {
+      width: 60%; } }
 
 @font-face {
   font-family: 'cac_champagneregular';
