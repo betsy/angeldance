@@ -77,7 +77,27 @@ body {
     padding: 2%;
     color: #FFF;
     font-size: 18px;
-    background-color: #43435e; }
+    background-color: #43435e;
+    /*#program_buttons{
+    	a{
+    		width:30%;
+    		height:0;
+    		padding-bottom:16.5%;
+    		cursor:pointer;
+    		background-size:100%;
+    		text-align:center;
+    		color:#FFF;
+    		margin-top:1%;
+    		margin-left:2%;
+    		padding-top:10px;
+    		font-family:'cac_champagneregular';
+    		display:inline-block;
+    		vertical-align:top;
+    		text-decoration:none;
+    		font-size:3vw;
+    		@media(max-width:700px){font-size:6vw;}
+    	}
+    }*/ }
     body #page_content #title {
       border-bottom: 1px solid gray; }
       @media (max-width: 700px) {
@@ -91,7 +111,7 @@ body {
     body #page_content #program_buttons a {
       width: 30%;
       height: 0;
-      padding-bottom: 16.5%;
+      padding-bottom: 14.5%;
       cursor: pointer;
       background-size: 100%;
       text-align: center;
