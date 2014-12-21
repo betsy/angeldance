@@ -29,17 +29,26 @@ body {
     padding-top: 2%;
     font-family: "cac_champagneregular";
     color: #51428f;
-    font-size: 5vw;
     font-weight: 600;
     text-align: center;
-    margin-bottom: 1%; }
+    margin-bottom: 1%;
+    font-size: 5vw; }
+    @media (max-width: 700px) {
+      body #banner {
+        font-size: 8vw; } }
     body #banner #subtext {
       font-size: 2vw; }
+      @media (max-width: 700px) {
+        body #banner #subtext {
+          font-size: 4vw; } }
   body #navbar {
-    font-size: 1.5vw;
     font-family: 'sans-serif';
     text-align: center;
-    margin-bottom: 1%; }
+    margin-bottom: 1%;
+    font-size: 1.5vw; }
+    @media (max-width: 700px) {
+      body #navbar {
+        font-size: 2.5vw; } }
     body #navbar a {
       color: gray;
       text-decoration: none;
@@ -110,9 +119,12 @@ body {
         line-height: 150%;
         color: #bbb4e0; }
         body #page_content .member .name .sub {
-          font-size: 18px;
           font-style: italic;
-          margin-bottom: 10px; }
+          margin-bottom: 10px;
+          font-size: 18px; }
+          @media (max-width: 700px) {
+            body #page_content .member .name .sub {
+              font-size: 12px; } }
       body #page_content .member .img_left img {
         float: left;
         margin-right: 15px; }
@@ -131,13 +143,25 @@ body {
         padding-top: 10px;
         padding-left: 5px;
         margin-bottom: 5px;
-        font-size: 25px;
         line-height: 150%;
-        color: #bbb4e0; }
+        color: #bbb4e0;
+        font-size: 25px; }
+        @media (max-width: 700px) {
+          body #page_content .classes_member .name {
+            font-size: 16px; } }
         body #page_content .classes_member .name .sub {
-          font-size: 18px;
           font-style: italic;
-          margin-bottom: 10px; }
+          margin-bottom: 10px;
+          font-size: 18px; }
+          @media (max-width: 700px) {
+            body #page_content .classes_member .name .sub {
+              font-size: 12px; } }
+      body #page_content .classes_member .location {
+        float: left;
+        width: 50%; }
+        @media (max-width: 700px) {
+          body #page_content .classes_member .location {
+            width: 100%; } }
     body #page_content #photo_gallery {
       			/*.crop{
       				display: block;
@@ -333,7 +357,7 @@ body {
       width: 60%; } }
 
 @media (max-width: 700px) {
-  .no-mobile {
+  .no-mobile, body #page_content .google_map {
     display: none; } }
 
 @font-face {
