@@ -126,10 +126,7 @@ SUBMITTED COMMUNITY SERVICE FORM: 46 HOURS
 	shrunk classButton images on programs page
 	deleted classes.html bc it wasn't being used
 
-CURRENT TOTAL: 5.5 hours
-RUNNING TOTAL: 51.5 hours
-
-12-20: 3hours
+12-20: 5hours
 	(10am-11am)
 	created favicon (browser tab icon) and added to all pages
 	fixed gallery photo titles (aka removed them bc not using)
@@ -141,10 +138,24 @@ RUNNING TOTAL: 51.5 hours
 	(10pm-11:30pm)
 	changed a few more things to be scalable (ex: titles, font sizes)
 
+12-21: 5hours
+	made more things (such as fonts) scaleable. It's basically mobile optimized now.
+	used @media to specify scaling etc for small screens (mobile!)
+	fixed some small things like fb button not being on all pages, jeremy lin size issues, etc
+	changed background to colored thing
+		this involved a rework of some of the colors of the site (including the nav bar and contact links)
+		used photoshop to create diff versions of the colored background (mostly hue/saturation/brightness/contrast edits)
+
+CURRENT TOTAL: 15.5 hours
+RUNNING TOTAL: 61.5 hours
+
 NOTES:
 
 	-TO DO: (serverside) use PHP (possibly) --> JSON --> js  ... to load all images from folder instead of manually
 
+	-ISSUES: gallery doesn't seem to proc the @media small screen detection and therefore remains narrow on phones
+			competitions page table is still a butt
+
 	-When someone rewrites the text to be shorter, I can include that (for instance, Keke's biography on the Faculty is massive)
-	-Need info for events page
+	-Fixed table on competitions page
 	-Where besides the home page should there be a link to the Register/Locations page?
