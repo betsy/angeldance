@@ -138,16 +138,22 @@ SUBMITTED COMMUNITY SERVICE FORM: 46 HOURS
 	(10pm-11:30pm)
 	changed a few more things to be scalable (ex: titles, font sizes)
 
-12-21: 5hours
+12-21: 6hours
 	made more things (such as fonts) scaleable. It's basically mobile optimized now.
 	used @media to specify scaling etc for small screens (mobile!)
 	fixed some small things like fb button not being on all pages, jeremy lin size issues, etc
 	changed background to colored thing
 		this involved a rework of some of the colors of the site (including the nav bar and contact links)
 		used photoshop to create diff versions of the colored background (mostly hue/saturation/brightness/contrast edits)
+	organized with
 
-CURRENT TOTAL: 15.5 hours
-RUNNING TOTAL: 61.5 hours
+12-22: 1hour
+	(1 study hall)
+	adjusted wallpaper colors using gimp
+	smoothed out smudge marks
+
+CURRENT TOTAL: 17.5 hours
+RUNNING TOTAL: 63.5 hours
 
 NOTES:
 
